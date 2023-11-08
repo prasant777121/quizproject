@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="1077.0" prefWidth="931.0" stylesheets="@css/logout.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxdemo.controller.logoutcontroller">
+   <children>
+      <HBox layoutX="114.0" layoutY="211.0" prefHeight="100.0" prefWidth="659.0">
+         <children>
+            <AnchorPane prefHeight="100.0" prefWidth="837.0">
+               <children>
+                  <Label layoutX="152.0" layoutY="41.0" text="Username" />
+                  <PasswordField layoutX="224.0" layoutY="38.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+      <AnchorPane layoutX="110.0" layoutY="301.0" prefHeight="100.0" prefWidth="837.0">
+         <children>
+            <Label layoutX="148.0" layoutY="41.0" prefHeight="18.0" prefWidth="65.0" text="password" />
+            <PasswordField layoutX="224.0" layoutY="38.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

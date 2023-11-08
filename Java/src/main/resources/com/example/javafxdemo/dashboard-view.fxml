@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="1092.0" prefWidth="994.0" styleClass="dashboard-background" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxdemo.controller.DashboardController">
+   <AnchorPane layoutX="45.0" layoutY="100.0" prefHeight="1033.0" prefWidth="994.0">
+      <children>
+      
+            
+            
+              <Button fx:id="playQuizButton" alignment="BASELINE_CENTER" layoutX="655.0" layoutY="682.0" onAction="#playQuizButtonClicked" prefHeight="42.0" prefWidth="159.0" styleClass="play-quiz-button" text="Play Quiz" />
+      </children>
+   </AnchorPane>
+</VBox>

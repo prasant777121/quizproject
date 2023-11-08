@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxdemo.controller.QuizPageController">
+    <stylesheets>
+        <URL value="@./css/quizpage.css" />
+    </stylesheets>
+    <Label fx:id="questionNumberLabel" styleClass="question-number" />
+    <VBox styleClass="quiz-content">
+        <Label fx:id="questionLabel" styleClass="question-label" />
+        <Button fx:id="answerButton1" onAction="#checkAnswer" styleClass="answer-button" />
+        <Button fx:id="answerButton2" onAction="#checkAnswer" styleClass="answer-button" />
+        <Button fx:id="answerButton3" onAction="#checkAnswer" styleClass="answer-button" />
+        <Button fx:id="answerButton4" onAction="#checkAnswer" styleClass="answer-button" />
+        <Label fx:id="resultLabel" text="" />
+    </VBox>
+    <Label fx:id="correctAnswersLabel" styleClass="correct-answers-label" />
+    <Label fx:id="incorrectAnswersLabel" styleClass="incorrect-answers-label"/>
+    <Label fx:id="eligible" />
+
+
+
+</VBox>
